@@ -59,21 +59,6 @@ pip install -r requirements.txt
 
 ---
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ALPR_Project.git
-   cd ALPR_Project
-   ```
-
-2. Download the pre-trained YOLO models:
-   - **YOLOv8** for vehicle detection (`yolov8n.pt`) from [Ultralytics YOLO repository](https://github.com/ultralytics/ultralytics).
-   - Custom **license plate detection model** (`license_plate_detector.pt`).
-
-3. Ensure the SORT files (`sort.py`, `kalman_filter.py`) are present in the `sort/` directory.
-
----
 
 ## Usage
 
@@ -114,5 +99,5 @@ This project leverages the following:
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics): Object detection models for vehicles and license plates.
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR): OCR for license plate text recognition.
 - [SORT Algorithm](https://github.com/abewley/sort): Real-time object tracking.
-
+- [Computer Vision Engineer](youtube channel).
 ---
